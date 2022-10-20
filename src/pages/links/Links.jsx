@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
 
 function Links() {
   return (
-    <div>
-      <h2>Links</h2>
-      <p>This is the home page.</p>
+    <div className="Links">
     </div>
   );
 }

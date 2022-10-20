@@ -1,29 +1,12 @@
-import React, { useEffect, useRef } from 'react'
-import Typed from 'typed.js'
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function Home() {
-    var options = {
-        strins: ["developer", "student", "designer", "writer"],
-        typeSpeed: 40,
-        backSpeed: 80,
-        loop: true,
-    }
-
-    const el = useRef(null)
-
-    useEffect(() => {
-        var typed = new Typed('.element', options)
-
-        return () => {
-            typed.destroy();
-        }
-    }, [])
-
-    return (
-        <div>
-            <h2 ref={el}></h2>
-        </div>
-    )
+  return (
+    <div className="Home">
+    </div>
+  );
 }
 
 export default Home;

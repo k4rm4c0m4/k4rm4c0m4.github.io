@@ -1,11 +1,9 @@
-import e from 'express';
-import React from 'react'
+import React from 'react';
+import './App.css';
 
 function About() {
   return (
-    <div>
-      <h2>About</h2>
-      <p>This is the about page.</p>
+    <div className="About">
     </div>
   );
 }
