@@ -11,12 +11,14 @@ import Links from './pages/links/Links';
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/*<Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/links" element={<Links />} />
-      </Routes>
+      </Routes>*/}
+
+      <h1>WWW.KARMACOMA.DEV</h1>
     </div>
   );
 }
