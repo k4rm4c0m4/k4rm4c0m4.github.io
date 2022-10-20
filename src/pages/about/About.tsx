@@ -1,3 +1,4 @@
+import e from 'express';
 import React from 'react'
 
 function About() {
@@ -7,3 +8,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
