@@ -1,12 +1,21 @@
 import React from 'react'
+import Typed from 'typed.js'
 
 function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-      <p>This is the home page.</p>
-    </div>
-  );
+    var options = {
+        strins: ["developer", "student", "designer", "writer"],
+        typeSpeed: 40,
+        backSpeed: 80,
+        loop: true,
+    }
+
+    var typed = new Typed('.element', options)
+
+    return (
+        <div>
+            <h2 id="typed"></h2>
+        </div>
+    );
 }
 
 export default Home;
