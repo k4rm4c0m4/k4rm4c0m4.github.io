@@ -7,3 +7,5 @@ function Links() {
     </div>
   );
 }
+
+export default Links;

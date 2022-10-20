@@ -7,9 +7,9 @@ import {
   Link
 } from "react-router-dom";
 
-import { Home } from './pages/home/home';
-import { About } from './pages/about/about';
-import { Links } from './pages/links/Links';
+import Home from './pages/home/Home';
+import About from './pages/about/About';
+import Links from './pages/links/Links';
 
 function App() {
   return (
