@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
 
 function Links() {
   return (
     <div className="Links">
+      <h1>LINKS</h1>
     </div>
   );
 }
