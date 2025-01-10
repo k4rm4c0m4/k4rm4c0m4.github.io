@@ -35,6 +35,10 @@ ol,li,ul {
     text-align: justify;
 }
 
+strong {
+    font-family: "Pirata One", serif;
+}
+
 /*
 Custom rules
 */
