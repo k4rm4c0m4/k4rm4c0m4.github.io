@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif'); */
+@import url('https://fonts.googleapis.com/css2?family=Texturina');
+/* @import url('https://fonts.googleapis.com/css2?family=Fondamento'); */
+@import url('https://fonts.googleapis.com/css2?family=VT323');
+
+
+body {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+    background-color: #f8f5e6;
+}
+
+h1 {
+    font-family: "Pirata One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Pirata One", serif;
+    font-weight: 350;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    font-family: "Fondamento", "Texturina", "Noto Serif", serif;
+    text-align: justify;
+}
+
+ol,li,ul {
+    text-align: justify;
+}
+
+/*
+Custom rules
+*/
+
+.author {
+    font-family: 'VT323', monospace;
+}
+
+.date {
+    text-align: center;
+}
+
+#title-block-header .author {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 0;
+    margin-bottom: 0;
+}
